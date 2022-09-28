@@ -1,0 +1,157 @@
+#navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px gray solid ;    
+    color: red;
+}
+
+#navbar > img{
+    margin:  15vw;
+}
+#navbar > ul{
+    display: flex;
+    list-style: none;
+    margin: 0 7vw;
+    
+
+}
+#navbar > ul >li{
+    margin: 0 2vw;
+}
+#navbar > ul > li > a{
+    text-decoration: none;
+    color: rgb(196, 26, 26);
+}
+#navbar > ul >li>a:hover{
+    color: black;
+}
+#place {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+}
+#place > section{
+    width: 25vw;
+    height: 3.4vh;
+    border: 1px solid black;
+    padding: 0.5vh 0;
+}
+#place > section > i{
+    margin-left: 1vw;
+    margin-top: 0.5vh;
+}
+
+#place > section > input{
+    border: none; 
+    width: 22vw;
+    height: 3vh;
+    padding: 0.3vh;
+    outline: none;
+}
+
+#place > input{
+    width: 25vw;
+    height: 3vh;
+}
+
+#perks{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:6vh auto;
+    border-bottom: 1px solid grey;    
+}
+#perks > div{
+    display: flex;
+}
+
+#perks > div > img{
+    height: 7vh;
+}
+#perks > div > h4{
+    padding-left: 2vw;
+    font-weight: bold;
+}
+
+#safety{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: auto;
+    border-bottom: 1px solid grey;
+}
+
+#reward{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-bottom: 1px solid gray;
+
+}
+
+#reward > div > ul > li{
+    margin: 3vh 0;
+    list-style: none;
+
+}
+
+#reward > div > button {
+  background-color: rgb(60, 60, 226);
+  color: white;
+  width: 8vw;
+  height: 5vh;
+  border-radius: 35%;
+  font-size: large;
+  font-weight: bold;  
+}
+
+#hotel > section{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    width: 100%;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+#hotel > section > img{
+    width: 25vw;
+    height: 28vh;
+    border-radius: 5%;
+}
+#hotel > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+}
+#hotel > div > img{
+    width: 35vw;
+    height: 45vh;
+    margin: 5vh 3vw;
+}
+#hotel > div > section > ul > li{
+    margin: 2vh;
+}
+#hotel{
+    border-bottom: 1px solid grey;
+}
+footer{
+    display: grid;
+    width: 100%;
+    height: 40vh;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+footer > ul > li{
+    margin: 2vh 0;
+    list-style: none;
+    color: blue;
+}
+footer > ul > li:hover{
+    text-decoration: underline;
+}

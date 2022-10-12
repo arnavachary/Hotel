@@ -1,0 +1,56 @@
+#navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px gray solid ;    
+    color: red;
+}
+
+#navbar > img{
+    margin:  15vw;
+}
+#navbar > ul{
+    display: flex;
+    list-style: none;
+    margin: 0 7vw;
+    
+
+}
+#navbar > ul >li{
+    margin: 0 2vw;
+}
+#navbar > ul > li > a{
+    text-decoration: none;
+    color: rgb(196, 26, 26);
+}
+#navbar > ul >li>a:hover{
+    color: black;
+}
+#trip > div > img{
+    margin-left: 40vw;
+}
+#trip > button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 2500rem;
+    margin-left: 33vw;
+    margin-top: 2vh;
+}
+.booking{
+    width: 33vw;
+    height: 6vh;
+    border: 1px solid black;
+    margin-left: 33vw;
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.booking > span{
+    font-weight: 700;
+    
+}
